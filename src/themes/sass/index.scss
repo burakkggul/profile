@@ -16,11 +16,3 @@
 @import './components/contact/contact';
 @import './components/footer/footer';
 @import './loader';
-
-
-
-.animate-box {
-	.js & {
-		opacity: 0;
-	}
-}

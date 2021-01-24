@@ -2,7 +2,7 @@ const Blog = () => {
     return (
         <div id="blog">
 		<div className="container">
-			<div className="row animate-box">
+			<div className="row ">
 				<div className="col-md-8 offset-md-2 text-center heading">
 					<h2>Post on Medium</h2>
 					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
@@ -10,7 +10,7 @@ const Blog = () => {
 			</div>
 			<div className="row">
 				<div className="col-md-4">
-					<div className="blog animate-box">
+					<div className="blog ">
 						<a href="#" className="blog-bg"></a>
 						<div className="blog-text">
 							<span className="posted_on">Mar. 15th 2016</span>
@@ -25,7 +25,7 @@ const Blog = () => {
 					</div>
 				</div>
 				<div className="col-md-4">
-					<div className="blog animate-box">
+					<div className="blog ">
 						<a href="#" className="blog-bg"></a>
 						<div className="blog-text">
 							<span className="posted_on">Mar. 15th 2016</span>
@@ -40,7 +40,7 @@ const Blog = () => {
 					</div>
 				</div>
 				<div className="col-md-4">
-					<div className="blog animate-box">
+					<div className="blog ">
 						<a href="#" className="blog-bg"></a>
 						<div className="blog-text">
 							<span className="posted_on">Mar. 15th 2016</span>

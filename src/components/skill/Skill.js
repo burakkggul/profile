@@ -27,7 +27,7 @@ const data = [
 const Skill = (props) => {
   const [skills, setSkills] = useState(data);
   return (
-    <div id="skills" className="animate-box">
+    <div id="skills">
       <div className="container">
         <div className="row">
           <div className="col-md-8 offset-md-2 text-center heading">

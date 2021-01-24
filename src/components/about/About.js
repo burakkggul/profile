@@ -1,9 +1,9 @@
 const About = () => {
     return (
-        <div id="about" className="animate-box">
+        <div id="about">
 		<div className="container">
 			<div className="row">
-				<div className="col-md-8 -md-2 text-center heading">
+				<div className="col-md-8 offset-md-2 text-center heading">
 					<h2>About Me</h2>
 				</div>
 			</div>

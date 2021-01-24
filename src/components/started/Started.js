@@ -3,7 +3,7 @@ const Started = () => {
         <div id="started">
 		<div className="overlay"></div>
 		<div className="container">
-			<div className="row animate-box">
+			<div className="row ">
 				<div className="col-md-8 offset-md-2 text-center heading">
 					<h2>Hire Me!</h2>
 					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>

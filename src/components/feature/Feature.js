@@ -1,6 +1,6 @@
 const Feature = () => {
     return (
-        <div id="features" className="animate-box">
+        <div id="features">
 		<div className="container">
 			<div className="services-padding">
 				<div className="row">

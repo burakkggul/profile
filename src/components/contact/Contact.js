@@ -4,7 +4,7 @@ const Contact = () => {
 		<div className="video video" >
 			<div className="overlay"></div>
 		</div>
-		<div className="choose animate-box">
+		<div className="choose ">
 			<h2>Contact</h2>
 			<form action="#">
 				<div className="row form-group">
