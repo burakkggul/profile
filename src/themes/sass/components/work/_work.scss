@@ -1,0 +1,78 @@
+#work{
+	background: $brand-primary;
+	.heading{
+		h2{
+			color: $brand-white !important;
+		}
+	}
+}
+
+.work{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 270px;
+	width: 100%;
+	display: table;
+	overflow: hidden;
+	@include media-breakpoint-down(sm){
+		height: 400px;
+	}
+	@include media-breakpoint-down(xs){
+		height: 270px;
+	}	
+	.desc{
+		display: table-cell;
+		vertical-align: middle;
+		height: 270px;
+		background: $brand-white;
+		opacity: 0;
+		@include transition(.3s);
+		h3{
+			font-size: 20px;
+			-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+			transition: transform 0.3s, opacity 0.3s;
+			-webkit-transform: translate3d(0, -15px, 0);
+			transform: translate3d(0, -15px, 0);
+		}
+		span{
+			display: block;
+			color: lighten($brand-black,60%);
+			font-size: 14px;
+			-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+			transition: transform 0.3s, opacity 0.3s;
+			-webkit-transform: translate3d(0, 15px, 0);
+			transform: translate3d(0, 15px, 0);
+		}
+		@include media-breakpoint-down(sm){
+			opacity: 1;
+			background: rgba($brand-white,.6);
+			h3{
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+			}
+			span{
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+			}
+		}
+	}
+	&:hover{
+		.desc{
+			opacity: 1;
+			h3{
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+			}
+			span{
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+			}
+		}
+	}
+}
+
+.example-project {
+	background-image:url('../../../images/portfolio-2.jpg');
+}

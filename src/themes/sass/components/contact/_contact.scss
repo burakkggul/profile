@@ -1,0 +1,108 @@
+#consult{
+	@include flex();
+	@include flexwrap();
+	width: 100%;
+	float: left;
+	.video, .choose{
+		display: inline-block;
+		@include media-breakpoint-down(sm){
+			width: 100% !important;
+		}
+	}
+	.video{
+		display: table;
+		width: 50%;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		position: relative;
+		@include flex();
+		@include flexwrap();
+		@include media-breakpoint-down(sm){
+			display: none;
+		}
+	}
+	.choose{
+		width: 50%;
+		padding: 4em;
+		@include media-breakpoint-down(sm){
+			width: 100%;
+			padding: 4em 1em;
+		}
+	}
+}
+
+.video {
+	background-image:url('../../../images/cover_bg_1.jpg');
+	overflow: hidden;
+	@include media-breakpoint-down(md){
+		height: 450px;
+	}
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, .1);
+		@include transition(.5s);
+	}
+}
+
+.form-control {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	border: 2px solid rgba(0,0,0,.1);
+	font-size: 18px;
+	
+	font-weight: 300;
+	@include border-radius(4px);
+	
+	&:focus, &:active {
+		box-shadow: none;
+		border: 2px solid rgba(0,0,0,.8);
+	}
+
+}
+input[type="text"] {
+	height: 50px;
+}
+.form-group {
+	margin-bottom: 30px;
+}
+
+
+// Form Input Field
+.form-control {
+	box-shadow: none;
+	background: transparent;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	height: 54px;
+	font-size: 18px;
+	font-weight: 300;
+  	&:active, &:focus {
+  		outline: none;
+		box-shadow: none;
+		border-color: $brand-primary;
+  }
+}
+
+.row-pb-md {
+	padding-bottom: 4em!important;
+}
+.row-pb-sm {
+	padding-bottom: 2em!important;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.col-padding {
+   padding:6px !important;
+   margin: 0px !important;
+}

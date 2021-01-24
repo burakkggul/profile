@@ -1,0 +1,26 @@
+@import './variable';
+@import './mixin';
+@import 'node_modules/bootstrap/scss/mixins';
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import './common';
+@import './components/header/header';
+@import './components/feature/feature';
+@import './components/about/about';
+@import './components/resume/resume';
+@import './components/skill/skill';
+@import './components/work/work';
+@import './components/started/started';
+@import './buttons';
+@import './components/blog/blog';
+@import './components/contact/contact';
+@import './components/footer/footer';
+@import './loader';
+
+
+
+.animate-box {
+	.js & {
+		opacity: 0;
+	}
+}
