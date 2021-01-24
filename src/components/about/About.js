@@ -10,11 +10,10 @@ const About = () => {
 			<div className="row">
 				<div className="col-md-4">
 					<ul className="info">
-						<li><span className="first-block">Full Name:</span><span className="second-block">Louie Jie Mahusay</span></li>
-						<li><span className="first-block">Phone:</span><span className="second-block">+ 1235 2355 98</span></li>
-						<li><span className="first-block">Email:</span><span className="second-block">info@yoursite.com</span></li>
-						<li><span className="first-block">Website:</span><span className="second-block">www.yoursite.com</span></li>
-						<li><span className="first-block">Address:</span><span className="second-block">198 West 21th Street, Suite 721 New York NY 10016</span></li>
+						<li><span className="first-block">Full Name:</span><span className="second-block">Burak GÜL</span></li>
+						<li><span className="first-block">Phone:</span><span className="second-block">+90 543 443 0468</span></li>
+						<li><span className="first-block">Email:</span><span className="second-block">burakkggul@gmail.com</span></li>
+						<li><span className="first-block">Website:</span><span className="second-block">www.burakgul.com.tr</span></li>
 					</ul>
 				</div>
 				<div className="col-md-8">
