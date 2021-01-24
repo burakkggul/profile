@@ -1,6 +1,6 @@
 const skillsWayPoint = () => {
-    if ($('#fh5co-skills').length > 0 ) {
-        $('#fh5co-skills').waypoint( function( direction ) {
+    if ($('#skills').length > 0 ) {
+        $('#skills').waypoint( function( direction ) {
                                     
             if( direction === 'down' && !$(this.element).hasClass('animated') ) {
                 setTimeout( pieChart , 400);					
