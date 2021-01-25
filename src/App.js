@@ -8,29 +8,36 @@ import Started from "./components/started/Started";
 import Work from "./components/work/Work";
 import Blog from "./components/blog/Blog";
 import Footer from "./components/footer/Footer";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import React from "react";
+import { profileInit } from "./profileInit";
+
+const components = {
+  about: About,
+  contact: Contact,
+  resume: Resume,
+  feature: Feature,
+  skill: Skill,
+  started: Started,
+  blog: Blog,
+  work: Work,
+};
 
 const App = () => {
-  useEffect(() => {
-  }, []);
+  console.log(profileInit.header);
+  const [store, setStore] = useState(profileInit);
+  console.log(store.header);
 
   return (
     <div className="page">
-      <Header />
-      <About />
-      <Resume />
-      <Feature />
-      <Skill />
-      <Work />
-      <Blog />
-      <Started />
-      <Contact />
-      <Footer />
-      <div className="gototop js-top">
-        <a href="#" className="js-gotop">
-          <i className="icon-arrow-up22"></i>
-        </a>
-      </div>
+      <Header {...store}/>
+      {store.components.map((componentType, index) => {
+        return React.createElement(components[componentType], {
+          key: index,
+          ...store,
+        });
+      })}
+      <Footer {...store}/>
     </div>
   );
 };

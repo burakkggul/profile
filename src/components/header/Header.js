@@ -4,18 +4,7 @@ import Zoom from "react-reveal/Zoom";
 import { Parallax } from "react-parallax";
 import backgroundImage from "../../themes/images/cover_bg_3.jpg";
 
-const data = {
-  name: "Burak GÜL",
-  title: "Software Engineer",
-  socialMedias: [
-    { name: "twitter", href: "https://twitter.com/burak8086" },
-    { name: "linkedin", href: "https://www.linkedin.com/in/gulburak/" },
-    { name: "github", href: "https://github.com/burakkggul" },
-  ],
-};
-
-const Header = () => {
-  const [header, setHeader] = useState(data);
+const Header = (props) => {
 
   const screenHeight = () => {
     return (
@@ -41,16 +30,16 @@ const Header = () => {
                     className="display-tc "
                     style={{ height: screenHeight() }}
                   >
-                    <div className="profile-thumb"></div>
+                    <div className="profile-thumb" style={{backgroundImage:`url(${props.header.profilePicture})`}}></div>
                     <h1>
-                      <span>{header.name}</span>
+                      <span>{props.header.name}</span>
                     </h1>
                     <h3>
-                      <span>{header.title}</span>
+                      <span>{props.header.title}</span>
                     </h3>
                     <p></p>
                     <ul className="social-icons">
-                      {header.socialMedias.map((socialMedia, index) => {
+                      {props.header.socialMedias.map((socialMedia, index) => {
                         return <Icon key={index} {...socialMedia} />;
                       })}
                     </ul>

@@ -1,5 +1,8 @@
+import Fade from "react-reveal/Fade";
+
 const Feature = () => {
     return (
+		<Fade bottom>
         <div id="features">
 		<div className="container">
 			<div className="services-padding">
@@ -89,6 +92,7 @@ const Feature = () => {
 			</div>
 		</div>
 	</div>
+	</Fade>
     );
 }
 
