@@ -20,7 +20,7 @@ const About = (props) => {
 				<div className="col-md-8">
 					<h2>{props.about.content.title}</h2>
 					{props.about.content.paragraphs.map((paragraph,index) => {
-						return (<p>{paragraph}</p>)
+						return (<p key={index}>{paragraph}</p>)
 					})}
 				</div>
 			</div>

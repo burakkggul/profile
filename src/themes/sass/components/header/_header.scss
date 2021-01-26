@@ -5,7 +5,6 @@
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
-	height: 600px;
 	width: 100%;
 	.overlay{
 		position: absolute;
@@ -22,7 +21,7 @@
 	.display-tc {
 		display: table-cell;
 		vertical-align: middle;
-		height: 600px;
+		height: 100vh;
 		h1, h2, h3 {
 			margin: 0;
 			padding: 0;

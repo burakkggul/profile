@@ -8,7 +8,7 @@ import Started from "./components/started/Started";
 import Work from "./components/work/Work";
 import Blog from "./components/blog/Blog";
 import Footer from "./components/footer/Footer";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import React from "react";
 import { profileInit } from "./profileInit";
 
@@ -24,9 +24,7 @@ const components = {
 };
 
 const App = () => {
-  console.log(profileInit.header);
-  const [store, setStore] = useState(profileInit);
-  console.log(store.header);
+  const [store] = useState(profileInit);
 
   return (
     <div className="page">

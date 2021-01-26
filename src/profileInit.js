@@ -34,8 +34,9 @@ export const profileInit = {
     content: {
       title: "Hello There!",
       paragraphs: [
-        "There live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in bookmarksgrove there live the blind texts far from the countries.",
-        "Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.",
+        "I graduated from Computer Engineering in June 2019.",
+        "I successfully completed the Cloud Computing Expert course given by Wissien Academy with the support of Turkish Employment Agency in October.",
+        "I started working at Özgür Yazılım A.Ş. in December 2019. In this process, I used HTML, Javascript, Jquery, SCSS, CSS technologies on the front of the Internet Booking Engine project, which I developed with JAVA and Spring Framework technologies. Apart from that, I manage the project's versioning and deployment processes via Jenkins."
       ],
     },
   },
@@ -94,25 +95,85 @@ export const profileInit = {
     title: "Skills",
     skills: [
       {
-        name: "HTML5/CSS3",
+        name: "HTML5/CSS3/SASS",
         value: "95%",
       },
       {
-        name: "WordPress",
+        name: "Java8",
+        value: "95%",
+      },
+      {
+        name: "Spring Framework",
         value: "90%",
       },
       {
-        name: "PHP",
-        value: "80%",
-      },
-      {
-        name: "Java",
-        value: "85%",
+        name: "Javascript",
+        value: "90%",
       },
       {
         name: "jQuery",
-        value: "75%",
+        value: "85%",
       },
+      {
+        name: "GNU/Linux",
+        value: "90%",
+      },
+      {
+        name: "Thymleaf",
+        value: "95%",
+      },
+      {
+        name: "React",
+        value: "60%",
+      },
+      {
+        name: "Node.js",
+        value: "85%"
+      },
+      {
+        name: "Maven",
+        value: "90%"
+      },
+      {
+        name: "Gradle",
+        value: "80%"
+      },
+      {
+        name:"Object Oriented Programming",
+        value:"95%"
+      },
+      {
+        name:"Spring Boot",
+        value:"90%"
+      },
+      {
+        name:"Spring MVC",
+        value:"90%"
+      },
+      {
+        name:"Spring Data MongoDB",
+        value:"70%"
+      },
+      {
+        name:"Spring Data JPA",
+        value:"70%"
+      },
+      {
+        name:"Bootstrap",
+        value:"95%"
+      },
+      {
+        name:"Nginx",
+        value:"70%"
+      },
+      {
+        name:"Representational State Transfer (REST)",
+        value:"90%"
+      },
+      {
+        name:"Jenkins",
+        value:"70%"
+      }
     ],
   },
   work: {
