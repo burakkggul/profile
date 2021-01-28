@@ -17,18 +17,18 @@ const Header = (props) => {
                     <div
                       className="profile-thumb"
                       style={{
-                        backgroundImage: `url(${props.header.profilePicture})`,
+                        backgroundImage: `url(${props.profilePicture})`,
                       }}
                     ></div>
                     <h1>
-                      <span>{props.header.name}</span>
+                      <span>{props.name}</span>
                     </h1>
                     <h3>
-                      <span>{props.header.title}</span>
+                      <span>{props.title}</span>
                     </h3>
                     <p></p>
                     <ul className="social-icons">
-                      {props.header.socialMedias.map((socialMedia, index) => {
+                      {props.socialMedias.map((socialMedia, index) => {
                         return <Icon key={index} {...socialMedia} />;
                       })}
                     </ul>

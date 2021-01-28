@@ -207,8 +207,10 @@ export const profileInit = {
         description: "Issue Management Application API.",
       },
     ],
-  },
-  header: {
+  }
+};
+
+export const initHeader = {
     name: "Burak GÜL",
     title: "Software Engineer",
     profilePicture: ProfilePicture,
@@ -216,6 +218,5 @@ export const profileInit = {
       { name: "twitter", href: "https://twitter.com/burak8086" },
       { name: "linkedin", href: "https://www.linkedin.com/in/gulburak/" },
       { name: "github", href: "https://github.com/burakkggul" },
-    ],
-  },
-};
+    ]
+  }
