@@ -27,16 +27,16 @@ export const profileInit = {
     title: "About",
     infos: [
       { firstBlock: "Full Name:", secondBlock: "Burak GÜL" },
-      { firstBlock: "Phone:", secondBlock: "+90 543 443 0468" },
-      { firstBlock: "Email", secondBlock: "burakkggul@gmail.com" },
-      { firstBlock: "Website", secondBlock: "www.burakgul.com.tr" },
+      { firstBlock: "Email", secondBlock: "contact@burakgul.com.tr" },
+      { firstBlock: "Website", secondBlock: "burakgul.com.tr" },
     ],
     content: {
       title: "Hello There!",
       paragraphs: [
         "I graduated from Computer Engineering in June 2019.",
         "I successfully completed the Cloud Computing Expert course given by Wissien Academy with the support of Turkish Employment Agency in October.",
-        "I started working at Özgür Yazılım A.Ş. in December 2019. In this process, I used HTML, Javascript, Jquery, SCSS, CSS technologies on the front of the Internet Booking Engine project, which I developed with JAVA and Spring Framework technologies. Apart from that, I manage the project's versioning and deployment processes via Jenkins."
+        "I started working at Özgür Yazılım A.Ş. in December 2019. In this process, I used HTML, Javascript, Jquery, SCSS, CSS technologies on the front of the Internet Booking Engine project, which I developed with JAVA and Spring Framework technologies. Apart from that, I manage the project's versioning and deployment processes via Jenkins.",
+        "On February 23, 2021, Özgür Yazılım AŞ I left the full-time Java Software Developer role that I was continuing. Currently, I am reviewing the code for Özgür Yazılım AŞ for at least 1 hour a day to follow the code quality processes. At the same time, I am working full time as a software engineer at Orion BT."
       ],
     },
   },
@@ -48,9 +48,19 @@ export const profileInit = {
         icon: "icon-suitcase",
         timelines: [
           {
-            title: "Junior Java Web Developer",
-            company: "Özgür Yazılım A.Ş. - 2019 December - Current",
+            title: "Software Engineer",
+            company: "Orion BT - 2021 March - Current",
             body:""
+          },
+          {
+            title: "Software Quality Assurance",
+            company: "Özgür Yazılım A.Ş. - 2021 February - Current",
+            body:"I do code review and feedback for at least 1 hour a day to check code quality processes."
+          },
+          {
+            title: "Junior Java Web Developer",
+            company: "Özgür Yazılım A.Ş. - 2019 December - 2021 February",
+            body:"I worked in the development of web applications for many international airline companies. In this process, I developed with the Java version 1.8 using Spring Core and Spring Web frameworks on the backend. I used Maven and Gradle for compilation. On the front, I developed with JavaScript, JQuery, Thymleaf, SCSS and Bootstrap technologies. I took part in the management of project deployment and versioning processes."
           },
           {
             title: "Intern",
@@ -217,6 +227,6 @@ export const initHeader = {
     socialMedias: [
       { name: "twitter", href: "https://twitter.com/burak8086" },
       { name: "linkedin", href: "https://www.linkedin.com/in/gulburak/" },
-      { name: "github", href: "https://github.com/burakkggul" },
+      { name: "github", href: "https://github.com/burakkggul" }
     ]
   }
