@@ -48,6 +48,11 @@ export const profileInit = {
         icon: "icon-suitcase",
         timelines: [
           {
+            title: "Java Trainer",
+            company: "BilgeAdam - 2022 February - Current",
+            body:""
+          },
+          {
             title: "Software Engineer",
             company: "Orion BT - 2021 March - Current",
             body:""
