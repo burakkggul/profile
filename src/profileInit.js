@@ -36,7 +36,7 @@ export const profileInit = {
         "I graduated from Computer Engineering in June 2019.",
         "I successfully completed the Cloud Computing Expert course given by Wissien Academy with the support of Turkish Employment Agency in October.",
         "I started working at Özgür Yazılım A.Ş. in December 2019. In this process, I used HTML, Javascript, Jquery, SCSS, CSS technologies on the front of the Internet Booking Engine project, which I developed with JAVA and Spring Framework technologies. Apart from that, I manage the project's versioning and deployment processes via Jenkins.",
-        "On February 23, 2021, Özgür Yazılım AŞ I left the full-time Java Software Developer role that I was continuing. Currently, I am reviewing the code for Özgür Yazılım AŞ for at least 1 hour a day to follow the code quality processes. At the same time, I am working full time as a software engineer at Orion BT."
+        "On February 23, 2021, I left my full-time Java Software Developer role as Özgür Yazılım AŞ. For a while, I reviewed the code for at least 1 hour a day to follow the code quality processes for Özgür Yazılım AŞ. Currently, I am working full-time as a software engineer at Orion BT, and at the same time I am working part-time as a Java Trainer at BilgeAdam."
       ],
     },
   },
@@ -59,8 +59,8 @@ export const profileInit = {
           },
           {
             title: "Software Quality Assurance",
-            company: "Özgür Yazılım A.Ş. - 2021 February - Current",
-            body:"I do code review and feedback for at least 1 hour a day to check code quality processes."
+            company: "Özgür Yazılım A.Ş. - 2021 February - 2021 April",
+            body:"I did code review and feedback for at least 1 hour a day to check code quality processes."
           },
           {
             title: "Junior Java Web Developer",
@@ -119,11 +119,11 @@ export const profileInit = {
       },
       {
         name: "Spring Framework",
-        value: "90%",
+        value: "95%",
       },
       {
         name: "Javascript",
-        value: "90%",
+        value: "95%",
       },
       {
         name: "jQuery",
@@ -139,7 +139,7 @@ export const profileInit = {
       },
       {
         name: "React",
-        value: "60%",
+        value: "95%",
       },
       {
         name: "Node.js",
@@ -159,7 +159,7 @@ export const profileInit = {
       },
       {
         name:"Spring Boot",
-        value:"90%"
+        value:"95%"
       },
       {
         name:"Spring MVC",
@@ -171,7 +171,7 @@ export const profileInit = {
       },
       {
         name:"Spring Data JPA",
-        value:"70%"
+        value:"95%"
       },
       {
         name:"Bootstrap",
@@ -179,15 +179,31 @@ export const profileInit = {
       },
       {
         name:"Nginx",
-        value:"70%"
+        value:"80%"
       },
       {
         name:"Representational State Transfer (REST)",
-        value:"90%"
+        value:"95%"
       },
       {
         name:"Jenkins",
         value:"70%"
+      },
+      {
+        name:"Kafka",
+        value:"90%"
+      },
+      {
+        name:"Elasticsearch",
+        value:"70%"
+      },
+      {
+        name:"Microservices",
+        value:"90%"
+      },
+      {
+        name:"Docker",
+        value:"95%"
       }
     ],
   },
@@ -230,7 +246,7 @@ export const initHeader = {
     title: "Software Engineer",
     profilePicture: ProfilePicture,
     socialMedias: [
-      { name: "twitter", href: "https://twitter.com/burak8086" },
+      { name: "twitter", href: "https://twitter.com/benburakgul" },
       { name: "linkedin", href: "https://www.linkedin.com/in/gulburak/" },
       { name: "github", href: "https://github.com/burakkggul" }
     ]
