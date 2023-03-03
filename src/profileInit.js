@@ -47,18 +47,24 @@ export const profileInit = {
         title: "Work Experience",
         icon: "icon-suitcase",
         timelines: [
+
+          {
+            title: "Senior Software Engineer",
+            company: "Orion BT - 2022 March - Current",
+            body:"I take part in the creation of the architectural structure of various projects with Java, JavaScript, Spring Boot, Spring Data, React technologies and the development of applications suitable for this infrastructure. I work as a senior software engineer in the marketplace vf mall project in Vodafone with Java, JavaScript, Spring, Angular."
+          },
           {
             title: "Java Trainer",
-            company: "BilgeAdam - 2022 February - Current",
+            company: "BilgeAdam - 2022 February - 2022 October",
             body:""
           },
           {
             title: "Software Engineer",
-            company: "Orion BT - 2021 March - Current",
-            body:""
+            company: "Orion BT - 2021 March - 2022 March",
+            body:"I take part in the creation of the architectural structure of various projects with Java, JavaScript, Spring Boot, Spring Data, React technologies and the development of applications suitable for this infrastructure."
           },
           {
-            title: "Software Quality Assurance",
+            title: "Software Consultant",
             company: "Özgür Yazılım A.Ş. - 2021 February - 2021 April",
             body:"I did code review and feedback for at least 1 hour a day to check code quality processes."
           },
@@ -114,7 +120,7 @@ export const profileInit = {
         value: "95%",
       },
       {
-        name: "Java8",
+        name: "Java",
         value: "95%",
       },
       {
@@ -140,6 +146,10 @@ export const profileInit = {
       {
         name: "React",
         value: "95%",
+      },
+      {
+        name: "Angular",
+        value: "65%",
       },
       {
         name: "Node.js",
@@ -243,7 +253,7 @@ export const profileInit = {
 
 export const initHeader = {
     name: "Burak GÜL",
-    title: "Software Engineer",
+    title: "Senior Software Engineer",
     profilePicture: ProfilePicture,
     socialMedias: [
       { name: "twitter", href: "https://twitter.com/benburakgul" },
