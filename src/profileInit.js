@@ -33,10 +33,12 @@ export const profileInit = {
     content: {
       title: "Hello There!",
       paragraphs: [
-        "I graduated from Computer Engineering in June 2019.",
-        "I successfully completed the Cloud Computing Expert course given by Wissien Academy with the support of Turkish Employment Agency in October.",
-        "I started working at Özgür Yazılım A.Ş. in December 2019. In this process, I used HTML, Javascript, Jquery, SCSS, CSS technologies on the front of the Internet Booking Engine project, which I developed with JAVA and Spring Framework technologies. Apart from that, I manage the project's versioning and deployment processes via Jenkins.",
-        "On February 23, 2021, I left my full-time Java Software Developer role as Özgür Yazılım AŞ. For a while, I reviewed the code for at least 1 hour a day to follow the code quality processes for Özgür Yazılım AŞ. Currently, I am working full-time as a software engineer at Orion BT, and at the same time I am working part-time as a Java Trainer at BilgeAdam."
+        "I graduated with a Bachelor's degree in Computer Engineering in June 2019.",
+        "In October 2019, I completed the Cloud Computing Expert course provided by Wissien Academy with the support of the Turkish Employment Agency.",
+        "I started working at Özgür Yazılım A.Ş. in December 2019, where I contributed to the development of web applications for several international airline companies. On the backend, I worked with Java and Spring Framework; on the frontend, I used HTML, JavaScript, jQuery, SCSS, and CSS. I also managed version control and deployment processes using Jenkins.",
+        "In February 2021, I left my full-time Java Software Developer role at Özgür Yazılım A.Ş., but continued part-time by conducting daily code reviews to help ensure code quality.",
+        "In March 2021, I joined Orion BT as a Software Engineer. Over time, I took part in multiple enterprise projects and was promoted to Senior Software Engineer in 2022. During this period, I worked primarily with Java, JavaScript, Spring Boot, React, and Angular. Between February and October 2022, I also provided part-time Java training at BilgeAdam.",
+        "As of May 2025, I have been working at ID3 as a Senior Software Engineer. I’m actively contributing to the development of 'td4p,' an internal application at Turkish Technology designed to simplify data generation from enterprise services for analysts, developers, and test engineers. In this project, I primarily use Spring Framework, PostgreSQL, and Next.js, along with various supporting technologies."
       ],
     },
   },
@@ -47,52 +49,53 @@ export const profileInit = {
         title: "Work Experience",
         icon: "icon-suitcase",
         timelines: [
-
           {
             title: "Senior Software Engineer",
-            company: "Orion BT - 2022 March - Current",
-            body:"I take part in the creation of the architectural structure of various projects with Java, JavaScript, Spring Boot, Spring Data, React technologies and the development of applications suitable for this infrastructure. I work as a senior software engineer in the marketplace vf mall project in Vodafone with Java, JavaScript, Spring, Angular."
+            company: "ID3(Turkish Technology) – May 2025 – Present",
+            body: 'Currently contributing to the development of "td4p," an internal application at Turkish Technology aimed at streamlining data generation from enterprise services for analysts, developers, and test engineers. Primarily working with Spring Framework, PostgreSQL, and Next.js, alongside various other supporting technologies.'
+          },
+          {
+            title: "Senior Software Engineer",
+            company: "Orion BT(Vodafone) – March 2022 – May 2025",
+            body: "Participated in designing and implementing the architectural structure of various enterprise-level projects using Java, JavaScript, Spring Boot, Spring Data, and React. Served as a senior software engineer in Vodafone’s VF Mall marketplace project, working primarily with Java, JavaScript, Spring, and Angular technologies."
           },
           {
             title: "Java Trainer",
-            company: "BilgeAdam - 2022 February - 2022 October",
-            body:""
+            company: "BilgeAdam – February 2022 – October 2022",
+            body: "Provided professional Java training to aspiring developers, focusing on Java SE and Java EE concepts, object-oriented programming, and backend development with Spring technologies."
           },
           {
             title: "Software Engineer",
-            company: "Orion BT - 2021 March - 2022 March",
-            body:"I take part in the creation of the architectural structure of various projects with Java, JavaScript, Spring Boot, Spring Data, React technologies and the development of applications suitable for this infrastructure."
+            company: "Orion BT – March 2021 – March 2022",
+            body: "Contributed to the architectural planning and development of multiple enterprise applications using Java, JavaScript, Spring Boot, Spring Data, and React."
           },
           {
             title: "Software Consultant",
-            company: "Özgür Yazılım A.Ş. - 2021 February - 2021 April",
-            body:"I did code review and feedback for at least 1 hour a day to check code quality processes."
+            company: "Özgür Yazılım A.Ş. – February 2021 – April 2021",
+            body: "Conducted daily code reviews and provided technical feedback to ensure code quality and adherence to development best practices."
           },
           {
             title: "Junior Java Web Developer",
-            company: "Özgür Yazılım A.Ş. - 2019 December - 2021 February",
-            body:"I worked in the development of web applications for many international airline companies. In this process, I developed with the Java version 1.8 using Spring Core and Spring Web frameworks on the backend. I used Maven and Gradle for compilation. On the front, I developed with JavaScript, JQuery, Thymleaf, SCSS and Bootstrap technologies. I took part in the management of project deployment and versioning processes."
+            company: "Özgür Yazılım A.Ş. – December 2019 – February 2021",
+            body: "Worked on the development of web applications for several international airline companies. Used Java 1.8 with Spring Core and Spring Web on the backend, and JavaScript, JQuery, Thymeleaf, SCSS, and Bootstrap on the frontend. Managed deployment and versioning processes, and utilized both Maven and Gradle for build automation."
           },
           {
             title: "Intern",
-            company: "Başarsoft Bilgi Teknolojileri A.Ş. - Aug 2019 - Nov 2019",
-            body:
-              'I developed my "Issue Management" application in this period. Issue Management create Restful API using the Spring Framework. PostgreSQL integration with JPA Provider Hibernate and Abstraction Spring Data JPA.Maven is used for project dependency management and build automation. RestFul APIs were created with Spring. Documentation of RestApi was created using the SpringFox Swagger 2 specification. Api tests were performed with postman.'
+            company: "Başarsoft Bilgi Teknolojileri A.Ş. – August 2019 – November 2019",
+            body: 'Developed a “Issue Management” web application using Spring Framework. Integrated PostgreSQL via JPA with Hibernate and Spring Data JPA. Managed dependencies with Maven and documented REST APIs using SpringFox (Swagger 2). Performed API testing using Postman.'
           },
           {
             title: "Intern",
-            company:
-              "Turkey Republic Ministry of Education - Jul 2018 - Sep 2018",
-            body:
-              "In part of my internship, I was interested in support and network management for the end user within the Department of Information Infrastructure Systems and Support Services.In the other part of my internship, I developed Employee Record Automation desktop app using the Java's Swing library within the Department of Educational Information Systems."
+            company: "Ministry of National Education, Republic of Turkey – July 2018 – September 2018",
+            body: 'Handled end-user support and network management within the Information Infrastructure Systems and Support Services Department. Also developed an Employee Record Automation desktop application using Java Swing within the Educational Information Systems Department.'
           },
           {
             title: "Intern",
-            company: "Tiga Bilgi Teknolojileri A.Ş. - Jul 2017 - Aug 2017",
-            body:
-              "I developed a elevator tracking application using HTML5, CSS3, Javascript and Jquery.In the backend, I have developed an application that generates JSON data in Java to simulate the elevator."
+            company: "Tiga Bilgi Teknolojileri A.Ş. – July 2017 – August 2017",
+            body: 'Developed an elevator tracking simulation application using HTML5, CSS3, JavaScript, and jQuery on the frontend. On the backend, created a Java application that generates JSON data to simulate elevator behavior.'
           },
         ],
+
       },
       {
         title: "Education",
@@ -137,7 +140,7 @@ export const profileInit = {
       },
       {
         name: "GNU/Linux",
-        value: "90%",
+        value: "95%",
       },
       {
         name: "Thymleaf",
@@ -145,6 +148,10 @@ export const profileInit = {
       },
       {
         name: "React",
+        value: "95%",
+      },
+      {
+        name: "Next.JS",
         value: "95%",
       },
       {
@@ -189,7 +196,7 @@ export const profileInit = {
       },
       {
         name:"Nginx",
-        value:"80%"
+        value:"90%"
       },
       {
         name:"Representational State Transfer (REST)",
@@ -197,7 +204,7 @@ export const profileInit = {
       },
       {
         name:"Jenkins",
-        value:"70%"
+        value:"90%"
       },
       {
         name:"Kafka",
