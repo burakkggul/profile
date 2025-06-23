@@ -1,7 +1,7 @@
-import Mokapi from "./themes/images/mokapi.png";
-import IssueManagement from "./themes/images/issue-management.png";
-import Profile from "./themes/images/profile.png";
-import SpringSecurity from "./themes/images/spring-security.png";
+import Mokapi from "./themes/images/mokapi.jpg";
+import Profile from "./themes/images/profile.jpg";
+import CoBrowserAI from "./themes/images/cobrowser-ai.jpg";
+import ChromeDevToolsTraining from "./themes/images/chrome-dev-tools-traingin.jpg";
 import ProfilePicture from "./themes/images/profilePicture.jpg";
 
 //HTML'de gösterilmesi istenen componentleri gösterilmek istenen sıra ile components listesine eklenmelidir.
@@ -242,17 +242,17 @@ export const profileInit = {
           "This project is a personal website project user interface.",
       },
       {
-        photo: SpringSecurity,
-        href: "https://github.com/burakkggul/spring-security-turkce",
-        name: "Spring Security Türkçe",
+        photo: ChromeDevToolsTraining,
+        href: "https://github.com/burakkggul/chrome-dev-tools-training",
+        name: "Browser DevTools Turkish Training Material",
         description:
-          "Turkish reference for JWT Spring Security implementation.",
+          "Turkish reference for browser devtools usage.",
       },
       {
-        photo: IssueManagement,
-        href: "https://github.com/burakkggul/issue-management",
-        name: "Issue Management API",
-        description: "Issue Management Application API.",
+        photo: CoBrowserAI,
+        href: "https://github.com/burakkggul/cobrowser-ai-ui",
+        name: "CoBrowser AI",
+        description: "Prompt to browser automation tool.",
       },
     ],
   }

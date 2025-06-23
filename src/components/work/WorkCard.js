@@ -3,6 +3,7 @@ const WorkCard = (props) => {
     <div className="col-md-3 text-center col-padding ">
       <a
         href={props.href}
+        target="_blank"
         className="work"
         style={{ backgroundImage: `url(${props.photo})` }}
       >
